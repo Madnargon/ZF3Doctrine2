@@ -36,11 +36,6 @@ return [
             ],
         ],
     ],
-    'service_manager' => [
-        'aliases' => [
-            'em' => 'Doctrine\ORM\EntityManager',
-        ],
-    ],
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => Controller\IndexControllerFactory::class,
