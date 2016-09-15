@@ -27,7 +27,6 @@ class IndexController extends AbstractActionController
     {
         $viewModel = new ViewModel();
 
-        dump($this->em);
 
         return $viewModel;
     }
